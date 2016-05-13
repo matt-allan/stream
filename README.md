@@ -105,7 +105,7 @@ $ composer test
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/yuloh/stream.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/vpre/yuloh/stream.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/yuloh/stream/master.svg?style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/yuloh/stream.svg?style=flat-square
