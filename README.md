@@ -67,7 +67,7 @@ class HelloMiddleware
 {
     public function __construct(StreamFactoryInterface $streamFactory = null)
     {
-        $this->streamFactory = $streamFactory ?? new StreamFactory();
+        $this->streamFactory = $streamFactory ?: new StreamFactory();
     }
 
     public function __invoke(RequestInterface $request, ResponseInterface $response, callable $next)
