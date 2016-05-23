@@ -54,7 +54,7 @@ $stream = new Stream($resource);
 
 ### Allowing Different implementations
 
-To allow the user to use their own stream, you should typehint against the [`StreamFactoryInterface`](src/StreamFactoryInterface) instead of using a concrete implementation.  This package ships with [adapters}(src/Adapters) for all of the common implementations, so the user can easily use their own stream.
+To allow the user to use their own stream, you should typehint against the [`StreamFactoryInterface`](src/StreamFactoryInterface) instead of using a concrete implementation.  This package ships with [adapters](src/Adapters) for all of the common implementations, so the user can easily use their own stream.
 
 ```php
 use Psr\Http\Message\RequestInterface;
